@@ -1,0 +1,27 @@
+nav {
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    align-items: center;
+}
+
+ul > li {
+    display: inline-block;
+}
+
+a {
+    text-decoration: none;
+    margin-left: 16px;
+}
+
+.image__logo {
+    width: 89px;
+    height: 89px;
+}
+
+@media (max-width: 600px){
+    .lista__menu {
+        display: none;
+    }
+}
+

@@ -1,0 +1,12 @@
+@import "https://fonts.googleapis.com/css2?family=Cherry+Bomb+One&family=Mukta:wght@300;500;700&display=swap";
+
+:root {
+    --font-cherry-bomb: "Cherry Bomb One";
+    --font-mukta: "Mukta";
+    --txt-large: 25px;
+    --txt-medium: 18px;
+    --txt-small: 25px;
+    --color-black: black;
+    --color-white: white;
+}
+
