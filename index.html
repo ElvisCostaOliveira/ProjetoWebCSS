@@ -1,20 +1,25 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pizzaria</title>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
     <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <script type="text/javascript" src="./js/script.js"></script>
 </head>
+
 <body>
     <header>
         <nav>
             <img class="image__logo" src="image/pizzaria.png" alt="Minha Logo">
             <ul class="lista__menu">
                 <li><a class="txt__small" href="">Home</a></li>
-                <li><a class="txt__small" href="">Sobre</a></li>
+                <li><a class="txt__small" href="#sobre">Sobre</a></li>
                 <li><a class="txt__small" href="">Localização</a></li>
             </ul>
             <ul class="lista__icon">
@@ -22,7 +27,7 @@
             </ul>
         </nav>
         <div class="mensagem__principal">
-            <h1 class="titulo__principal">A pizzaria do Carlão é a melhor pizza de Alagoas, pois só tem ela.</h1>
+            <h1 class="titulo__principal">A pizzaria Nordestina é a melhor pizza de Alagoas, pois só tem ela.</h1>
             <p class="txt__small">Nossa pizzaria oferece pizza! E nada mais.</p>
             <button>Não se avexe, olhe o menu!</button>
         </div>
@@ -31,62 +36,113 @@
     </header>
     <section class="cards">
         <div class="card card__verde__menta">
-            <img class="image__card"  src="./image/pizzad.png" alt="Pizza">
-            <p class="txt__medium">Pizza de Baiana</p>
+            <img class="image__card" src="./image/pizzad.png" alt="Pizza">
+            <p class="txt__medium">Pizza Baiana</p>
             <p class="txt__small">R$ 52,00</p>
         </div>
         <div class="card card__rosa__pastel">
-            <img class="image__card"  src="./image/pizzae.png" alt="Pizza">
-            <p class="txt__medium">Pizza de Pernambucana</p>
+            <img class="image__card" src="./image/pizzae.png" alt="Pizza">
+            <p class="txt__medium">Pizza Pernambucana</p>
             <p class="txt__small">R$ 45,00</p>
         </div>
         <div class="card card__pessego">
-            <img class="image__card"  src="./image/pizzaf.png" alt="Pizza">
-            <p class="txt__medium">Pizza de Paraibana</p>
+            <img class="image__card" src="./image/pizzaf.png" alt="Pizza">
+            <p class="txt__medium">Pizza Paraibana</p>
             <p class="txt__small">R$ 102,00</p>
         </div>
+        <div class="card card__verde__menta">
+            <img class="image__card" src="./image/pizzaf.png" alt="Pizza">
+            <p class="txt__medium">Pizza Sergipana</p>
+            <p class="txt__small">R$ 109,00</p>
+        </div>
     </section>
-
-    <footer>
-        <div class="container-footer">
-            <div class="row-footer">
-                <div class="footer-col">
-                    <h4>Home</h4>
-                    <ul>
-                        <li><a href="#">Tudo o que precisa</a></li>
-                    </ul>
-                </div>
-                <div class="footer-col">
-                    <h4>Sobre</h4>
-                    <ul>
-                        <li><a href="#">Nossa história</a></li>
-                    </ul>
-                </div>
-                <div class="footer-col">
-                    <h4>localização</h4>
-                    <ul>
-                        <li><a href="#">Mapa</a></li>
-                    </ul>
-                </div>
-                <div class="footer-col">
-                    <h4>Recebe novidades!</h4>
-                    <div class="form-sub">
-                        <form>
-                            <input type="email" placeholder="Digite o seu e-mail" required>
-                            <button>Se escrever</button>
-                        </form>
-                    </div>
-
-                    <div class="medias-socias">
-                        <a href="#"> <i class="fa fa-facebook"></i> </a>
-                        <a href="#"> <i class="fa fa-instagram"></i> </a>
-                        <a href="#"> <i class="fa fa-twitter"></i> </a>
-                        <a href="#"> <i class="fa fa-linkedin"></i> </a>
-                    </div>
-
-                </div>
+    
+    <section id="sobre" class="sobre">
+        <div class="sobre__content">
+            <div class="sobre__left">
+                <h2>A Deliciosa Mistura Nordestina na Pizza Alagoana</h2>
+                <p>No coração da ensolarada Alagoas, encontramos uma pérola gastronômica que mescla com maestria a tradição nordestina com a paixão universal pela pizza. Nessa terra de praias paradisíacas e cultura vibrante, surge uma pizzaria que encanta não só os alagoanos, mas também aqueles que a visitam de todas as partes do país. É um lugar onde os sabores do Nordeste se encontram em um redondo de massa saborosa.</p>
+            </div>
+            <div class="sobre__right">
+                <img src="./image/_pizza1.png" alt="Pizza Alagoana" class="sobre__image">
             </div>
         </div>
+        <div class="sobre__content">
+            
+            <div class="sobre__left">
+                <img src="./image/pizzac.png" alt="Tempero Alagoano" class="sobre__image">
+            </div>
+            <div class="sobre__right">
+                <h2>O Tempero Alagoano</h2>
+                <p>Logo ao adentrar essa pizzaria, o aroma inebriante das especiarias nordestinas nos envolve. O cheiro de cuscuz, queijo coalho grelhado e carne de sol na chapa nos faz sentir em casa. E é exatamente isso que essa pizzaria oferece: um abraço caloroso em forma de pizza.</p>
+            </div>
+            
+        </div>
+    </section>
+    
+    
+
+
+    <div class="footer-triangulo">
+        <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+            <path d="M1200 0L0 0 598.97 114.72 1200 0z" class="shape-fill"></path>
+        </svg>
+    </div>
+
+    <footer class="main_footer container footer__principal">
+
+        <div class="content">
+
+            <div class="colfooter">
+
+                <h4 class="titleFooter"><i class="icon icon-menu"></i> Menu</h4>
+
+                <ul>
+
+                    <li><a href="#" title="Página Inícial">Home</a></li>
+                    <li><a href="#" title="Sobre a Empresa">Sobre</a></li>
+                    <li><a href="#" title="Galeria de Fotos">Localização</a></li>
+
+                </ul>
+
+            </div>
+
+            <div class="colfooter">
+
+                <h4 class="titleFooter"><i class="icon icon-mail-2"></i> Contato</h4>
+                <p><i class="icon icon-mail"></i> contato@pizzarianordestina.com.br</p>
+                <p><i class="icon icon-phone"></i> 82 5432-2345</p>
+                <p><i class="icon icon-whatsapp"></i> 82 99876-5432</p>
+
+            </div>
+
+            <div class="colfooter">
+
+                <h4 class="titleFooter">Redes Sociais</h4>
+
+                
+                <a href="#" class="redesocial"><span> <i class="icon icon-facebook fab fa-facebook"></i></i> /pizzarianordestina</span></a>
+                <a href="#" class="redesocial"><span> <i class="icon icon-instagram fab fa-instagram"></i></i> @pizzarianordestina</span></a>
+                <a href="#" class="redesocial"><span> <i class="icon icon-youtube fab fa-youtube"></i> /pizzarianordestina</span></a>
+
+                </form>
+
+            </div>
+
+            <div class="clear"></div>
+
+        </div>
+
+        <div class="main_footer_copy">
+
+            <p class="m-b-footer"> © Copyright 2023 - Pizzaria Nordestina | Todos os Direitos Reservados</p>
+            <p class="by"><i class="icon icon-heart-3"></i> Desenvolvido por: <a href="#" title="Elvis Oliveira">Elvis
+                    Oliveira</a></p>
+
+        </div>
+
     </footer>
+
 </body>
+
 </html>

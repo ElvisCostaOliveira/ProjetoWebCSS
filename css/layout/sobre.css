@@ -1,0 +1,40 @@
+#sobre {
+    padding: 60px 0;
+    background: linear-gradient(90deg, red, white, green );
+    color: #eedede;
+    margin-top: 1rem;
+    color: black;
+}
+
+.sobre__content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 40px; 
+}
+
+.sobre__left {
+    flex: 1;
+    padding: 20px;
+}
+
+.sobre__right {
+    flex: 1;
+    padding: 20px;
+    text-align: center;
+}
+
+h2 {
+    font-family: var(--font-cherry-bomb);
+    font-size: 20px;
+    letter-spacing: 1px;
+    line-height: 1.5;
+}
+
+p {
+    font-family: var(--font-mukta);
+    font-size: 18px;
+    letter-spacing: 1px;
+    line-height: 1.2;
+}
+
